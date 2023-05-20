@@ -64,15 +64,30 @@
     .text1{
     margin-left: 93px;
     color: #000000;
+    padding-bottom: 28px; 
+    }
+    .text1:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
     }
     .text2{
     margin-left: 50px;
     color: #000000;
+    padding-bottom: 28px; 
+    }
+    .text2:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
     }
     .text3{
     margin-left: 50px;      
-    color: #000000;  
+    color: #000000; 
+    padding-bottom: 28px;  
     } 
+    .text3:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
+    }
     .lineheader{
         width: 1600px;
 height: 0px;
@@ -151,44 +166,182 @@ color: #757575;
     margin-top: 48px;
 }
 /*--------------------------Animation--------------------------*/
-.imgmain:hover{
-cursor: pointer;
-background: rgba(33, 150, 243, 0.9);
-}
 .boxtext{
-position: absolute;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 width: 322px;
 height: 168px;
-left: 216px;
-top: 266px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 28px;
-
+line-height: 28px;  
 letter-spacing: 0.03em;
-opacity: 0;
+color: #FFFFFF;
+padding: 63px 24px;
+background: rgba(33, 150, 243, 0.9);
+transform: translateX(-100%);
+transition: transform 200ms;
+}
+.imgtext{
+    position: relative;
+    overflow: hidden;
+}
+.imgtext:hover .boxtext{
+    transform: translateX(0);
+}
+
+/*-----------------------Footer------------------------*/
+svg{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    width: 1600px;
+height: 252px;
+background: #2F303A;
+margin-top: 94px;
+}
+.footerlogo{
+width: 145px;
+height: 31px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+margin-top: 60px;
+margin-left: 215px;
+}
+.footerh4{
+width: 116px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-left: 156px;
+
 color: #FFFFFF;
 }
-.boxtext:hover{
-    opacity: 1;
-    background: rgba(33, 150, 243, 0.9);
-    padding: 63px 24px;
+.footerlogos{
+    display: flex;
+    align-items: baseline
+}
+.footerp1{
+width: 231px;
+height: 21px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.footerp2{
+
+width: 231px;
+height: 21px;   
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+margin-top: 9px;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+.footerboxp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 215px;
+}
+.footersvg1{
+    fill: #FFFFFF;
+}
+.footersvg2{
+    fill: #FFFFFF;
+}
+.footersvg3{
+    fill: #FFFFFF;
+}
+.footersvg4{
+    fill: #FFFFFF;
+}
+.footerlink1{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerlink1:hover{
+    background: #2196F3;
+}
+.footerlink2:hover{
+    background: #2196F3;
+}
+.footerlink3:hover{
+    background: #2196F3;
+}
+.footerlink4:hover{
+    background: #2196F3;
+}
+.footerlink2{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerlink3{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-.imgsvg:hover{
-    animation-name: rotate;
-    animation-duration: 900ms;
-    animation-iteration-count: infinite;
-    animation-delay: 0ms;
+.footerlink4{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-@keyframes rotate{
-    0% {
-transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.footersvgs{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.footertext{
+    display: flex;
 }

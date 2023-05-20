@@ -63,12 +63,28 @@ display: inline;
 }
 .text1{
 margin-left: 93px;
+padding-bottom: 27px;   
+}
+.text1:hover{
+    border-bottom: 5px solid;
+color: #2196F3;
 }
 .text2{
 margin-left: 50px;
+padding-bottom: 27px;   
+}
+.text2:hover{
+    border-bottom: 5px solid;
+color: #2196F3;
+
 }
 .text3{
-margin-left: 50px;        
+margin-left: 50px;   
+padding-bottom: 27px;        
+}
+.text3:hover{
+    border-bottom: 5px solid;
+color: #2196F3;
 }
 .hero{
     background-image:url(img/Img.jpg);
@@ -511,65 +527,34 @@ margin-left: 653px;
 margin-top: 94px;
 color: #212121;
 }
-.clientsbox{
-    display: flex;
+.icon-list{
     margin-top: 50px;
-    margin-left: 190px;
-
 }
-.clientsimg1{
-    padding-right: 65px;
-    padding-top: 23px;
-    padding-left: 64px;
-    padding-bottom: 20px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
-.clientsimg2{
-    padding-right: 66px;
-    padding-top: 19px;
-    padding-left: 66px;
-    padding-bottom: 21px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-}
-.clientsimg3{
-    padding-top: 25px;
-    padding-right: 64px;
-    padding-bottom: 26px;
-    padding-left: 61.5px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-}
-.clientsimg4{
-padding-top: 25px;
-padding-right: 42.5px;
-padding-bottom: 27px;
-padding-left: 43px;
+.icon{
+font-size: 65px;
+color: #AFB1B8;
+padding: 16px 32px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 margin-left: 30px;
 }
-.clientsimg5{
-    padding-top: 23px;
-    padding-right: 53.5px;
-    padding-bottom: 24px;
-    padding-left: 54px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-}
-.clientsimg6{
-padding-top: 23px;
-padding-right: 38px;
-padding-bottom: 25px;
-padding-left: 38px;
+.icon1{
+    font-size: 65px;
+color: #AFB1B8;
+padding: 16px 32px;
 border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
+border-radius: 4px;
+margin-left: 180px;
+}
+.icon1:hover{
+    color: #2196F3;
+    border-color: #2196F3;
+    transition: 500ms;
+}
+.icon:hover{
+    color: #2196F3;
+    border-color: #2196F3;
+    transition: 500ms;
 }
 /*-------------------------------footer---------------------------*/
 footer{
@@ -671,15 +656,19 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footerlink1:hover{
     background: #2196F3;
+    transition: 400ms;
 }
 .footerlink2:hover{
     background: #2196F3;
+    transition: 400ms;
 }
 .footerlink3:hover{
     background: #2196F3;
+    transition: 400ms;
 }
 .footerlink4:hover{
     background: #2196F3;
+    transition: 400ms;
 }
 .footerlink2{
     border-radius: 50%;
