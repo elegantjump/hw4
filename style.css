@@ -643,6 +643,78 @@ margin-left: 180px;
     border-color: #2196F3;
     transition: 500ms;
 }
+
+
+@media screen and (max-width: 768px) {
+    .clientsh2{
+        width: 314px;
+height: 33px;
+margin-left: 227px;
+    }
+    .icon-list{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        grid-column-gap: 1  0px;
+    }
+    .icon1{
+        margin-left: 30px;
+        padding: 16px 60px;
+        width: 106px;
+height: 60px;
+margin-right: 0px;
+margin-top: 30px;
+margin-left: 0px;
+    }
+    .icon{
+        padding: 16px 60px;
+        width: 106px;
+height: 60px;
+margin-right: 0px;
+margin-top: 30px;
+margin-left: 0px;
+    }
+    .clients{
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 397px;
+        width: 738px;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    .clientsh2{
+        width: 314px;
+height: 33px;
+margin-left: 83px;
+margin-top: 60px;
+    }
+    .icon-list{
+        display: grid;
+        grid-template-columns: 210px 210px;
+        grid-column-gap: 30px;
+    }
+    .icon1{
+        margin-left: 0px;
+        padding: 16px 52px;
+        width: 106px;
+height: 60px;
+margin-right: px;
+margin-top: 30px;
+    }
+    .icon{
+        margin-left: 0px;
+        padding: 16px 52px;
+        width: 106px;
+height: 60px;
+margin-right: px;
+margin-top: 30px;
+    }
+    .clients{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 480px;
+    }
+}
 /*-------------------------------footer---------------------------*/
 footer{
     width: 1600px;
