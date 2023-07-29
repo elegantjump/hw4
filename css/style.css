@@ -128,19 +128,9 @@ nav {
   padding-bottom: 27px;
 }
 
-.text1:hover {
-  border-bottom: 5px solid;
-  color: #2196F3;
-}
-
 .text2 {
   margin-left: 50px;
   padding-bottom: 27px;
-}
-
-.text2:hover {
-  border-bottom: 5px solid;
-  color: #2196F3;
 }
 
 .text3 {
@@ -148,13 +138,7 @@ nav {
   padding-bottom: 27px;
 }
 
-.text3:hover {
-  border-bottom: 5px solid;
-  color: #2196F3;
-}
-
 .hero {
-  background-image: url(img/Img.jpg);
   filter: brightness(80%);
   display: flex;
   flex-direction: column;
@@ -162,6 +146,7 @@ nav {
   width: 1600px;
   height: 600px;
   top: 80px;
+  background-image: url(/img/Img.jpg);
 }
 
 .herotxt {
@@ -409,18 +394,15 @@ h4 {
 
 .interestsmain {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 1400px;
+  margin-left: 130px;
+  margin-top: 50px;
 }
 
 .pnginterests {
   width: 370px;
   height: 294px;
-  left: 215px;
-  top: 1208px;
-  margin-top: 50px;
-  margin-left: 320px;
-  position: relative;
-  position: absolute;
   width: 370px;
   height: 294px;
 }
@@ -428,28 +410,17 @@ h4 {
 .pnginterests2 {
   width: 370px;
   height: 294px;
-  left: 215px;
-  top: 1208px;
-  margin-top: 50px;
-  margin-left: 30px;
 }
 
 .pnginterests3 {
   width: 370px;
   height: 294px;
-  left: 215px;
-  top: 1208px;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 140px;
 }
 
 .intreststext1 {
   position: absolute;
   width: 156px;
   height: 16px;
-  left: 245px;
-  top: 1342px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -463,6 +434,8 @@ h4 {
   padding: 27px 107px;
   width: 156px;
   height: 16px;
+  top: 225px;
+  left: 0px;
 }
 
 .intreststext2 {
@@ -482,8 +455,8 @@ h4 {
   position: absolute;
   width: 144px;
   height: 16px;
-  left: 646px;
-  top: 1342px;
+  top: 225px;
+  left: 0px;
 }
 
 .intreststext3 {
@@ -500,9 +473,27 @@ h4 {
   width: 156px;
   height: 16px;
   padding: 27px 107px;
-  left: 1046px;
-  top: 1342px;
   position: absolute;
+  top: 225px;
+  left: 0px;
+}
+
+.intbox1 {
+  width: 370px;
+  height: 294px;
+  position: relative;
+}
+
+.intbox2 {
+  width: 370px;
+  height: 294px;
+  position: relative;
+}
+
+.intbox3 {
+  width: 370px;
+  height: 294px;
+  position: relative;
 }
 
 .team {
@@ -970,4 +961,9 @@ footer {
 
 .footertext {
   display: flex;
+}
+
+.text1:hover, .text2:hover, .text3:hover {
+  color: #2196F3;
+  border-bottom: 5px solid;
 }

@@ -62,26 +62,31 @@
     }
     .text1{
     margin-left: 93px;
-    padding-bottom: 27px;   
-    }
-    .text1:hover{
-        border-bottom: 5px solid;
-    color: #2196F3;
+    padding-bottom: 27px; 
+    @extend %blue-hover-color;
     }
     .text2{
     margin-left: 50px;
     padding-bottom: 27px;   
-    }
-    .text2:hover{
-        border-bottom: 5px solid;
-    color: #2196F3;
-    
+    @extend %blue-hover-color;
     }
     .text3{
     margin-left: 50px;   
-    padding-bottom: 27px;        
+    padding-bottom: 27px;   
+    @extend %blue-hover-color;     
     }
-    .text3:hover{
-        border-bottom: 5px solid;
-    color: #2196F3;
-    }
+    header {
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include adaptive (mobile-only) {
+            padding-left: 0;
+            max-width: 768px;
+        }
+            @include adaptive (mobile) {
+                max-width: 480px;
+                height: 60px;
+                padding: 0;
+            }
+      }
