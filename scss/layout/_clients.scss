@@ -1,0 +1,120 @@
+.clients{
+    height: 372;
+    width: 1600px;
+}
+.clientsh2{
+width: 297px;
+height: 42px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-left: 653px;
+margin-top: 94px;
+color: #212121;
+}
+.icon-list{
+    margin-top: 50px;
+}
+.icon{
+font-size: 65px;
+color: #AFB1B8;
+padding: 16px 32px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-left: 30px;
+}
+.icon1{
+    font-size: 65px;
+color: #AFB1B8;
+padding: 16px 32px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-left: 180px;
+}
+.icon1:hover{
+    color: #2196F3;
+    border-color: #2196F3;
+    transition: 500ms;
+}
+.icon:hover{
+    color: #2196F3;
+    border-color: #2196F3;
+    transition: 500ms;
+}
+
+
+@media screen and (max-width: 768px) {
+    .clientsh2{
+        width: 314px;
+height: 33px;
+margin-left: 227px;
+    }
+    .icon-list{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        grid-column-gap: 1  0px;
+    }
+    .icon1{
+        margin-left: 30px;
+        padding: 16px 60px;
+        width: 106px;
+height: 60px;
+margin-right: 0px;
+margin-top: 30px;
+margin-left: 0px;
+    }
+    .icon{
+        padding: 16px 60px;
+        width: 106px;
+height: 60px;
+margin-right: 0px;
+margin-top: 30px;
+margin-left: 0px;
+    }
+    .clients{
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 397px;
+        width: 738px;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    .clientsh2{
+        width: 314px;
+height: 33px;
+margin-left: 83px;
+margin-top: 60px;
+    }
+    .icon-list{
+        display: grid;
+        grid-template-columns: 210px 210px;
+        grid-column-gap: 30px;
+    }
+    .icon1{
+        margin-left: 0px;
+        padding: 16px 52px;
+        width: 106px;
+height: 60px;
+margin-right: px;
+margin-top: 30px;
+    }
+    .icon{
+        margin-left: 0px;
+        padding: 16px 52px;
+        width: 106px;
+height: 60px;
+margin-right: px;
+margin-top: 30px;
+    }
+    .clients{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 480px;
+    }
+}

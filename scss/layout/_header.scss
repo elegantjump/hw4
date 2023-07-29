@@ -1,0 +1,87 @@
+.name{
+    margin-left: 215px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    margin-bottom: 24px;
+    margin-top: 25px;
+    }
+    span{
+        color: #2196F3;
+    }
+    .tel{
+    order: 5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 50px;
+    color: #757575;
+    }
+    .mail{
+        margin-left: 344px;
+        order: 3;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #2196F3;
+    }
+    header{
+        display: flex;
+        align-items: baseline;
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+    }
+    nav{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    display: inline;
+    }
+    .text1{
+    margin-left: 93px;
+    padding-bottom: 27px;   
+    }
+    .text1:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
+    }
+    .text2{
+    margin-left: 50px;
+    padding-bottom: 27px;   
+    }
+    .text2:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
+    
+    }
+    .text3{
+    margin-left: 50px;   
+    padding-bottom: 27px;        
+    }
+    .text3:hover{
+        border-bottom: 5px solid;
+    color: #2196F3;
+    }
