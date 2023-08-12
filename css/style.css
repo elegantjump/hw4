@@ -1,3 +1,8 @@
+.text3:hover, .text2:hover, .text1:hover {
+  color: #2196F3;
+  border-bottom: 5px solid;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -136,6 +141,19 @@ nav {
 .text3 {
   margin-left: 50px;
   padding-bottom: 27px;
+}
+
+header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767.99px) {
+  header {
+    padding-left: 0;
+    max-width: 768px;
+  }
 }
 
 .hero {
@@ -326,8 +344,8 @@ h4 {
     flex-direction: column;
   }
   .pluses {
-    height: 5457px;
-    width: 480px;
+    height: 994px;
+    width: 450px;
     margin-left: 15px;
   }
   .plsimg1 {
@@ -377,6 +395,12 @@ h4 {
   margin-right: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .interestsmain {
+    width: 0%;
+    height: 0%;
+  }
+}
 .mainintereststext {
   font-family: "Roboto";
   font-style: normal;
@@ -961,9 +985,4 @@ footer {
 
 .footertext {
   display: flex;
-}
-
-.text1:hover, .text2:hover, .text3:hover {
-  color: #2196F3;
-  border-bottom: 5px solid;
 }
