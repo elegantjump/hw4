@@ -396,9 +396,10 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  .interestsmain {
-    width: 0%;
-    height: 0%;
+  .interests {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
   }
 }
 .mainintereststext {
@@ -530,8 +531,8 @@ h4 {
 .teamlogo {
   width: 284px;
   height: 42px;
-  margin-left: 668px;
   padding-top: 94px;
+  margin-left: 668px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -703,6 +704,75 @@ svg {
   border-radius: 50%;
 }
 
+.teamsmallmainbox {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    height: 1285px;
+  }
+  .teammainbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .teamsmallmainbox {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    justify-content: start;
+  }
+  .teambox1 {
+    margin-left: 0px;
+  }
+  .teambox3 {
+    margin-left: 0px;
+  }
+  .teambox4 {
+    margin-left: 30px;
+  }
+  .teamlogo {
+    margin-left: 0px;
+    padding-left: 180px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team {
+    height: 2761px;
+  }
+  .teamsmallmainbox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: start;
+  }
+  .teammainbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .teambox1 {
+    width: 450px;
+    height: 622px;
+  }
+  .teambox2 {
+    margin-left: 0px;
+    width: 450px;
+    height: 622px;
+  }
+  .teambox3 {
+    width: 450px;
+    height: 622px;
+  }
+  .teambox4 {
+    margin-left: 0px;
+    width: 450px;
+    height: 622px;
+  }
+  .teamimg {
+    width: 450px;
+    height: 460px;
+  }
+}
 .clients {
   height: 372;
   width: 1600px;
@@ -985,4 +1055,13 @@ footer {
 
 .footertext {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .footerlogo {
+    margin-left: 76px;
+  }
+  .footerboxp {
+    margin-left: 76px;
+  }
 }

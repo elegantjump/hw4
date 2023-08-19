@@ -150,3 +150,12 @@ color: rgba(255, 255, 255, 0.6);
 .footertext{
     display: flex;
 }
+@media screen and (max-width:768px) {
+    .footerlogo{
+        margin-left: 76px;
+    }
+    .footerboxp{
+        margin-left: 76px;
+    }
+    
+}
